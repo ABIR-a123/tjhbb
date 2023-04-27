@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    outline: none;
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #333;
+}
+
+.card {
+    background-color: #222;
+    color: white;
+    padding: 1rem;
+    min-height: 80vh;
+    width: 50%;
+    overflow: scroll;
+    border-radius: 1rem;
+
+}
+
+.card-title {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.todo-form {
+    margin-left: 30px;
+}
+
+#inputTask,
+.datetime {
+
+    border: none;
+    padding: 0.5rem;
+    border-radius: 0.6rem;
+    width: 68%;
+
+
+}
+
+.todoBtn {
+    width: 15%;
+    border: none;
+    border-radius: 0.6rem;
+    padding: 0.5rem;
+    background-color: orange;
+    color: white;
+    transition: all 0.3s;
+    cursor: pointer;
+
+
+}
+
+.todoBtn:hover {
+    background-color: white;
+    color: black
+}
+
+#renderBody {
+    margin-top: 20px;
+
+}
+
+.datetime {
+    width: 15%;
+    padding: 0.35rem;
+}
+
+
+
+.btn-edit {
+
+
+
+
+    width: 10%;
+
+    border: none;
+    border-radius: 0.6rem;
+    padding: 0.5rem;
+    background-color: orange;
+    color: white;
+    transition: all 0.3s;
+    cursor: pointer;
+    margin: 1rem 0;
+    text-align: center;
+
+
+}
+
+.edit-task {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    margin: 0.6rem 0;
+    padding: 0 1rem;
+    border-radius: 0.6rem;
+}
+
+.edit-task:hover {
+    background-color: #111;
+}
+
